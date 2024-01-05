@@ -22,8 +22,8 @@ btnSubmit.addEventListener('click', () => {
 
 //         console.log('go away')
 //     }
-      if(usernameInput !== 'Meos' || userAgeInput !== '16' ){
-        loginMessage.textContent ='You are not Mr.Meos'
+      if(usernameInput !== 'meos' || userAgeInput !== '16' ){
+        loginMessage.textContent = 'You are not Mr.Meos'
      loginMessage.style.color = 'red'
 
       } else {
